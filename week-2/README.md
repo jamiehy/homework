@@ -58,7 +58,7 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 - [Box Model Breakdown](http://learn.shayhowe.com/html-css/opening-the-box-model/)
 - [CSS Tricks difference between IDs and Classes](https://css-tricks.com/the-difference-between-id-and-class/)
 - [What is a CSS Reset?](http://www.cssreset.com/what-is-a-css-reset/)
-- Relaxr's [design file](starter_code/design_file)
+- Relaxr's [design file](starter_code/design_file.txt)
 
 
 
@@ -66,8 +66,3 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 
 <br>
 
----
-
-###Evaluation / Submission
-
-Students will create a new repository on GitHub called "homework-landingpage" and push their code to it when they are ready to submit. Instructional team should evaluate against the solution code and the student's use of technical elements. They will provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2). Bonus sections are completely optional. The maximum possible score on this assignment is 12/12.
