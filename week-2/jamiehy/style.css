@@ -2,9 +2,35 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.benefits{
+  background-color: #f0efef;
+}
+
+#benefit-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+  padding-top: 40px;
+  padding-left: 60px;
+}
+#benefit-description{
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+  padding: 0px 220px 0px 60px;
+}
+
+ul {
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+  padding: 0px 230px 40px 120px;
+  margin: 0px auto;
+}
+
 .testimonial {
   background-image: url(../starter_code/images/testimonial_bg.jpg);
-  padding: 50px 140px 50px 140px;
+  padding: 50px 145px 50px 145px;
   color: #ffffff;
   font-size: 18px;
   text-align: justify;
