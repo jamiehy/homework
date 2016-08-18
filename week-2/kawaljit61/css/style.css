@@ -50,8 +50,6 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
 }
 
 
@@ -63,22 +61,121 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
 }
 
 header {
+  color: white;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  padding: 25px 10% 100px;
+  height: 300px;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header h2 {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+header a {
+  font-size: 20px;
+  color: black;
+  display: block;
+  background-color: yellow;
+  width: 150px;
+  text-decoration: none;
+  padding: 15px;
+
+  /* center */
+  margin: 20px auto;
+  text-align: center;
+}
+.benefits {
+  background-color: #f0efef;
+  padding: 25px 10% 100px;
+}
+
+.benefits h1 {
+  color: #033048;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.benefits p{
+  font-size: 16px;
+  width: 400px;
+}
+
+.benefits ul{
+  font-size: 16px;
+  padding: 30px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.quote {
+  background: url(../images/testimonial_bg.jpg);
+  height: 300px;
+  padding: 25px 10% 100px;
+}
+
+.quote h2 {
+  color: white;
+font-size: 18px;
+width: 300px;
+
+margin: 20px auto;
+text-align: center;
+}
+
+.quote p {
+  color: white;
+  text-align: center;
+}
+
+.signup a{
+  color: white;
+  background-color:#033048;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px auto;
+  text-align: center;
+  display: 	block;
+  width:150px;
+  padding: 10px;
+}
+.signup {
+  background-color: yellow;
+}
+footer{
+  background-color: #121212;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  color: white;
+}
+
+footer h1{
+  color: yellow;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
 
 }
 
-footer {
+footer li {
+  display: inline;
+  padding: 20px;
 
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
