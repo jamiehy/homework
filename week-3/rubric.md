@@ -23,4 +23,11 @@ Project URL: ____________________________________
 | Use a background image for the headers                                                                                               |                                |                        |                          |
 | Add a hover effect to all the links using pseudo-classes                                                                             |                                |                        |                          |
 | Integrate drop caps using pseudo-classes                                                                                             |                                |                        |                          |
-| TOTAL: ______/14                                                                                                                     |                                |                        |                          |
+| Use media queries at a 768px breakpoint                                                       |                                |                        |                          |
+| Content remains in appropriate ```divs```                                                     |                                |                        |                          |
+| Content remains visible to the user                                                           |                                |                        |                          |
+| Fonts change size appropriately                                                               |                                |                        |                          |
+| Margins and padding change size appropriately                                                 |                                |                        |                          |
+| Content does not overlap                                                                      |                                |                        |                          |
+| In the blog section, the two-column layout changes to a single-column layout when appropriate |                                |                        |   
+| TOTAL: ______                                                                                                                     |                                |                        |                          |
