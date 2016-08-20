@@ -1,0 +1,220 @@
+/*
+Project Name: Relaxr Landing Page Dev
+Client: Relaxr
+Author: Sherman
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family:'Open Sans', sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top black;
+     background-size: cover;
+
+}
+
+#content {
+    background: no-repeat center top white;
+    background-size: cover;
+}
+
+#content2{
+    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+}
+
+#action{
+    background: no-repeat center top yellow;
+    background-size: cover;
+}
+
+#credits{
+    background: no-repeat center top #121211;
+    background-size: cover;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  text-align:center;
+}
+
+#content {
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  position: relative;
+}
+
+#content2{
+  width: 100%;
+  margin: auto;
+  height: 450px;
+  position: relative;
+}
+
+#action{
+  width: 100%;
+  margin: auto;
+  height: 100px;
+}
+
+#credits{
+  width: 100%;
+  margin: auto;
+  height: 220px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.Logo{
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: 1em;
+  margin-top: 1em;
+  color: white;
+  text-align: left;
+}
+
+.Headline{
+  font-weight: 300;
+  font-size: 50px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  color: white;
+}
+
+.button{
+  font-weight: 800;
+  font-size: 20px;
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 20px 90px 20px 90px;
+  margin-top: -1em;
+  margin-bottom: 9em;
+  align-items: center;
+  display: inline-block;
+  position: relative;
+
+}
+
+.copy{
+  margin-left: 3em;
+  margin-top: 3em;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+.benefits{
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.quote{
+  font-size: 25px;
+  font-weight: 300;
+  color: white;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.author{
+  font-weight: 600;
+  font-style: normal;
+}
+
+.sign-up-now{
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+  background-color: Black;
+  border-radius: 5px;
+  padding: 20px 90px 20px 90px;
+  margin-top: 15px;
+  margin-bottom: 200px;
+  align-items: center;
+  display: inline-block;
+}
+
+.creditcontent{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: yellow;
+}
+
+.relax{
+  padding-bottom: 2em;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.creditcontent p{
+  padding-top: 2em;
+  font-size: 15px;
+  color: white;
+}
+
+.creditcontent img{
+  padding: 1em;
+}
