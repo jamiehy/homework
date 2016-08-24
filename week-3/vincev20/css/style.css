@@ -47,10 +47,8 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     //color: #000;
      font-size: 12px;
      line-height: 1.4;
-     //font-family: Helvetica, Arial, sans-serif; 
      font-family: 'Open Sans', sans-serif;
      background-color: #f0efef;
 }
@@ -74,17 +72,215 @@ body {
 /* Center the container */
 #container {
   width: 100%;
-  //width: 960px;
   margin: auto;
 }
 
-header {
-
-}
 
 footer {
 
 }
+
+/*****************/
+
+.relaxrmain {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  width: 100%;
+  height: 700px;
+  background-size: 100% 800px;
+}
+
+.relaxrmain header {
+  background-color: unset;
+}
+
+.relaxrmain h1 {
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  color: white;
+}
+
+.relaxrmain h2 {
+  text-align: center;
+  margin:auto;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+  padding-top: 240px;
+}
+
+
+.getitnow {
+  display: block;
+  width: 260px;
+  height: 60px;
+  background-color: yellow;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 80px;
+  font-size: 28px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #033048;
+  padding-top: 10px;
+
+}
+
+
+.benefits {
+  width: 100%;
+  height: 610px;
+  background-color: #f0efef;
+
+}
+
+.benefits div {
+  width: 650px;
+  padding-left: 100px;
+
+}
+
+
+.benefits h2 {
+
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #033048;
+  margin: 75px 0px 0px 100px;
+}
+
+
+.benefits p {
+  font-size: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #606161;
+  margin: 20px 0px 0px 110px;
+}
+
+
+.benefits ul {
+
+    margin: 40px 0px 0px 0px;
+}
+
+
+.benefits li {
+  font-size: 27px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #606161;
+  padding: 10px 0px 0px 00px;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  width: 100%;
+  height: 395px;
+  background-size: 100% 395px;
+  background-color: #f0efef;
+  padding-top: 15px;
+
+}
+
+.testimonial p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.testimonial div {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+.testimonial h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+
+
+.signupnow {
+  width: 100%;
+  height: 120px;
+  background-color: #f9e42e;
+  padding-top: 30px;
+}
+
+
+.signupnow a {
+  display: block;
+  width: 300px;
+  height: 58px;
+  background-color: #033048;
+  border-radius: 5px;
+  margin: auto;
+  font-size: 26px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: white;
+  padding-top: 10px;
+
+}
+
+
+
+.landingFooter {
+  width: 100%;
+  height: 380px;
+  background-color: #121212;
+
+}
+
+.landingFooter h2 {
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #f9e42e;
+  margin: 0;
+
+}
+
+.landingFooter p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;  
+  font-size: 19px;
+  margin: 0;
+ /* margin-top: 75px;*/
+ /*margin-bottom: 30px;*/
+
+}
+
+
+.landingFooter div {
+  text-align: center;
+}
+
+
+
+/******************/
+
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -94,15 +290,20 @@ a {
   text-decoration: none;
 }
 
+
+
 header {
-  background-color: #033048;
-  height: 120px;
+  background-color: #303e53;
+  height: 121px;
 }
 
 header h1 {
   float: left;
   color: white;
-  font-size: 56px;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 23px 0px 0px 120px;
+
 }
 
 header nav {
@@ -111,109 +312,287 @@ header nav {
 
 header ul {
   list-style: none;
-     // color: #f9e42e;
+  margin-right: 50px;
 }
 
 header li {
     display: inline-block;
-    //color: white;
-    margin-right: 10px;
+    margin-right: 53px;
+    margin-top: 40px;
 
 }
 
 header a {
   color: #f9e42e;
-  font-size: 36px;
+  font-size: 24px;
+  font-weight: 200;
 
 }
 
 main {
 
-width: calc(100% - 255px);
+width: calc(100% - 355px);
 
 }
 
 .sidebar {
-
+  margin-top:60px;
   width: 250px;
 }
 
 
-main, .sidebar {
+main {
   display: inline-block;
   vertical-align: top;
 
 }
 
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+ /* margin-right: 40px;*/
+}
+
 .sidebar h3 {
 
-  font-size: 36px;
+  font-size: 30px;
+  font-weight: bold;
   color: #033048;
+  margin-bottom: 16px; 
+}
+/*
+.sidebar h3:nth-child(2) {
+
+  margin-bottom: 30px; 
+}
+*/
+
+.sidebar ul {
+	margin-bottom: 50px; 
 }
 
 .sidebar li {
 
-  font-size: 26px;
+  font-size: 23px;
+  font-weight: 300;
   color: #033048;
 }
 
+.sidebar p {
+
+  font-size: 20px;
+  font-weight: 300;
+  color: #033048;
+}
 
 .sidebar a {
-
-  font-size: 26px;
-  color: #033048;
+	color: #033048;	
 }
 
-.adSection {
+.sidebar > a {
+  display: block;
+  font-size: 26px;
+  color: #033048;
+  font-weight: 600;
+  margin-bottom: 47px;
+}
+
+.adSection h3{
   background-color: white;
   height: 540px;
-
+  text-align: center;
+  font-weight: 700;
+  padding-top: 20px;
 }
 
 article {
 
   border-bottom: 1px solid black;
+  margin: 75px 0px 0px 120px;
+  width: 84%;
+
+  /*width: 700px;*/
+}
+
+article:nth-child(2) {
+	margin-top: 36px;
+	margin-bottom: 120px;
+
+}
+
+article img {
+	display: block;
+	margin-bottom: 33px;
+}
+
+article a {
+	display: block;
+	margin: 50px 0px 35px 0px;
+	text-align: right;
+	font-size: 24px;
+	font-weight: 600;
+	color:#033048;
+
 }
 
 article h2 {
   color: #033048;
-  font-size:36px;
-  width: 570px;
+  font-weight: 600;
+  font-size:38px;
+ 
+  margin-bottom: 22px;
 
 }
 
 article p {
 
 color: #606161;
-font-size: 26px;
+font-size: 24px;
+font-weight: 300;
 
+text-align: justify;
+
+}
+
+article p:first-letter { 
+
+
+
+float: left; 
+color: #676868; 
+font-size: 75px; 
+line-height: 65px; 
+padding-top: 7px; 
+padding-right: 8px; 
+padding-left: 3px; 
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
 }
 
 .signUpNow {
 height: 120px;
-background-color: yellow;
+background-color: #FFF55C;
 text-align: center;
+padding-top: 40px;
 
 }
 
 .signUpNow a {
+margin-top: 30px;
+
 text-decoration: none;
 font-size: 26px;
 color: white;
-background-color: blue;
-border-radius: 10px;
-
+background-color: #033048;
+border-radius: 5px;
+padding: 13px 70px;
 }
 
 footer {
-  font-size: 26px;
-  background-color: #121212;
+  
+  background-color: #2f2f2f;
+  text-align: center;
 }
 
 footer h2 {
+  padding: 50px 0px 50px 0px;
   color: yellow;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+footer img{
+	display: inline-block;
+
+}
+
+footer img:nth-child(2) {
+	margin-right: 25px;
+	
+}
+footer img:nth-child(3) {
+	margin-left: 25px;
+	
 }
 
 footer p {
+padding: 70px 0px 50px 0px;
   color: white;
+  font-weight: 300;
+  font-size: 16px;
 }
+
+a:hover {
+	color:red;
+}
+
+.sidebar a:hover{
+	color:red;
+}
+
+
+/*@media (max-width: 768px) {*/
+
+
+@media (max-width: 1000px) {
+
+	article h2 {
+		color:red;
+	}
+
+	main, .sidebar {
+		display: block;
+	} 
+
+}
+
+@media (max-width: 768px) {
+
+	article h2 {
+		color:green;
+	}
+
+	main, .sidebar {
+		display: block;
+	} 
+
+}
+
+
+@media (max-width: 480px) {
+
+	.container {
+		margin: 0;
+		padding: 0;
+
+	}
+
+	article h2 {
+		margin: 0;
+		padding: 0;
+		color:blue;
+		font-size: 2em;
+		text-align: left;
+	}
+
+	header li {
+    	display: block;
+
+	}
+
+	img {
+
+	/*height: 60px;*/
+	width: 160px;
+	height: 150px;
+	/*	width: 90%;
+*/	/*height: %;*/
+	}
+
+	main, .sidebar {
+		display: block;
+	} 
+
+}
+
+
