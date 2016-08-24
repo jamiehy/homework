@@ -331,13 +331,15 @@ header a {
 
 main {
 
-width: calc(100% - 355px);
-
+/*width: calc(100% - 355px);*/
+/*idth: 69%;*/
+width: calc(100% - 20%);
 }
 
 .sidebar {
   margin-top:60px;
   width: 250px;
+ /*width: 29%;*/ 
 }
 
 
@@ -561,7 +563,7 @@ a:hover {
 
 @media (max-width: 480px) {
 
-	.container {
+	.container, .main {
 		margin: 0;
 		padding: 0;
 
