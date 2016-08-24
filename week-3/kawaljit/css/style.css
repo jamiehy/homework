@@ -47,6 +47,7 @@ Developer @GA in NYC
 
 body {
      color: #000;
+     background-color: #f0efef;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
@@ -63,14 +64,108 @@ body {
   margin: auto;
 }
 
-header {
-background-color: #f0efef;
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #033048;
+  height: 100px;
+  padding:20px;
+}
+
+nav h1 {
+  color: white;
+  float: left;
+}
+
+nav ul li {
+  color: #f9e42e;
+  display: inline;
+  float: right;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.blog {
+  float: left;
+  width: 700px;
+}
+
+.blog img {
+  max-width: 100%;
+}
+
+.blog h1 {
+  color: #033048;
+  font-size: 40px;
+  clear: right;
+}
+
+.blog p, .blog a {
+  font-size: 24px;
+}
+
+.blog p::first-letter {
+  font-size: 48px;
+  float: left;
+  font-weight: bold;
+}
+
+.blog a {
+  text-align: right;
+  display: block;
+  padding-bottom: 15px;
+  margin-bottom:30px;
+  border-bottom: 1px solid black;
+}
+
+.sidebar {
+  float: right;
+  width: 240px;
+}
+
+.sidebar h2{
+  font-size: 32px;
+}
+.sidebar ul, .sidebar p{
+  font-size: 20px;
+}
+
+.sidebar a {
+  display: block;
+}
+
+.signupnow {
+  clear: both;
+  background-color: yellow;
+  text-align: center;
+  font-size: 18px;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+
+.signupnow a {
+  padding:20px;
+  color: white;
+  background-color: #033048;
 }
 
 footer {
-
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 18px;
 }
 
+footer img{
+  padding: 15px;
+}
+
+
+footer h1 {
+  color: yellow;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
