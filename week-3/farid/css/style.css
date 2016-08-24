@@ -11,8 +11,8 @@ Developer @GA in NYC
 /*******************************************/
 
 /* Box Model Hack */
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400, 400i,600,800'
 
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400, 400i,600,800'
 
 * {
      -moz-box-sizing: border-box; /* Firexfox */
@@ -46,35 +46,120 @@ Developer @GA in NYC
 
 .relaxrheader {
   color: #FFFFFF;
-  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 46px;
   font-weight: 800;
   letter-spacing: 1px;
-  margin: 0px 0px 0px 40px;
+  margin: 26px 0px 0px 120px;
   float: left;
+
 }
 
-.sign-up {
-  background: #f9e42e;
+.bannerdisplay{
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 600, sans-serif;
+  text-align: center;
+  padding-top: 180px;
+}
+
+/* animate button */
+.hvr-efx a span {
+  opacity: 0;
+  padding-left: 5px;
+  margin-left: -30px;
+  transition: opacity .25s ease-out, margin-left .5s;
+}
+
+.hvr-efx a:hover span {
+  opacity: 1;
+  margin-left: 0;
+}
+/* animate button */
+
+.benefits{
+  width: auto;
+  height:auto;
+  background-color: #f0efef;
+  padding: 80px 0px 80px 120px;
+
+}
+
+.benefits h1{
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.benefits p{
+  font-size: 25px;
+  font-weight: 300;
+  color: #606161;
+}
+
+.benefits ol{
+  list-style-type: disc;
+  padding-left: 80px;
+  padding-top:  40px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #606161;
+}
+
+.quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat;
+  background-size:cover;
+  height: auto;
+  text-align: center;
+  padding-bottom: 80px;
+
+
+}
+
+.quote p{
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: 100px;
+
+}
+
+.quote :last-child{
+  margin-top: -90px;
+  font-weight:400;
+  font-style: normal;
+}
+
+.signup{
+  display: block;
+  width: auto;
+  padding: 30px;
+  background-color: #f9e42e;
   text-align: center;
 }
 
-.sign-up a {
-  background: #033048;
-  color: white;
+.signup button{
+  width: 300px;
+  height: 65px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #043049;
+
 }
 
-h1 {
-  float: left;
+.signup a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-nav ul li {
-  list-style: none;
-  margin: 20px;
-  padding: 0;
-  float: right;
-  display: inline-block;
-  font-size: 15px;
-}
+
+
 
 /******************************************
 /* BASE STYLES
@@ -84,7 +169,29 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     background: url(../images/header_bg.jpg) center center  no-repeat fixed rgb(134,141,157);
+     background-size: cover;
+     max-width: 100%;
+}
+
+button {
+  width: 260px;
+  height: 60px;
+  text-align: center;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: #f9e42e;
+}
+
+
+a {
+  color: #033048;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -94,45 +201,58 @@ body {
 
 /* Center the container */
 #container {
+  width: auto;
   margin: auto;
+  height: 500px;
+  position: relative;
+
 }
 
-main, .sidebar {
-  display: inline-block;
-  vertical-align: top; /* make sure you have this everytime you use block*/
-}
-
-main {
-  width: calc(100% - 255px);
-}
-
-.sidebar {
-  width: 250px;
-}
-
-.sidebar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+main article h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
 }
 
 header {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #033048;
-  color: #f9e42e;
+
 }
 
+
+
+
+
 footer {
-  background: black;
-  color: white;
+  display: block;
   text-align: center;
+  background-color: #000000;
+  width: auto;
+  padding: 50px;
 }
+
+footer p{
+  font-size: 46px;
+  font-weight: 800;
+  color: #f9e42e;
+
+}
+
+footer img{
+  margin: 50px 40px 50px 30px;
+}
+
+.copywrite {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+footer .copywrite{
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 15px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-article h2{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
-}
