@@ -94,15 +94,16 @@ nav ul li {
 }
 
 main {
-  width: 60%;
-  display: inline-block;
-  margin-left: 100px;
+  width: 700px;
+  /*display: inline-block;*/
+  float: left;
   margin-top: 50px;
   color: #033048;
 }
 
 article {
   margin-bottom: 50px;
+  margin-left: 50px;
 }
 
 article p {
@@ -124,7 +125,7 @@ article a {
   text-decoration: none;
   font-size: 22px;
   font-weight: bold;
-  margin-left: 430px;
+  margin-left: 490px;
   margin-bottom: 30px;
   color: #033048;
 }
@@ -139,11 +140,12 @@ article a {
 }
 
 .sidebar {
-  width: 23%;
-  float: right;
-  vertical-align: top;
+  width: 240px;
+  /*float: right;
+  vertical-align: top;*/
+  float: left;
   color: #033048;
-  margin: 50px 50px 10px 10px;
+  margin: 50px 10px 10px 10px;
 }
 
 .sidebar h1 {
@@ -167,6 +169,7 @@ article a {
 footer {
   background-color: #121212;
   height: 300px;
+  clear: both;
 }
 
 .footercontent {
@@ -191,6 +194,7 @@ h5 {
 .signup {
   height: 100px;
   background-color: #f9e42e;
+  clear: both;
 }
 
 .signupbutton {
@@ -216,3 +220,12 @@ h5 {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media (max-width:768px) {
+  main, .sidebar {
+    float: left;
+    margin-right: 100px;
+  }
+
+
+}
