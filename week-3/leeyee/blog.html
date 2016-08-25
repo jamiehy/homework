@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="js/relaxr.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Relaxr Blog">
+	<meta name="keywords" content="Relaxr Blog">
+
+	<title>Relaxr Blog</title>
+
+	<!-- external CSS link -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+	<header class="clearfix">
+		<div class="container">
+			<h1>Relaxr</h1>
+			<nav class="clearfix">
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="" onclick="linkmsg();return false;">FAQ</a></li>
+					<li><a href="" onclick="linkmsg();return false;" >Team</a></li>
+					<li><a href="" onclick="linkmsg();return false;" >Contact Us</a></li>
+					<li class="current"><a href="blog.html">Blog</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="main" class="clearfix"> <!--main hold both posts and sidebar so that we're able to modify their width together!-->
+		<div class="container">
+			<section id="posts">
+				<article id="firstpost">
+					<h1>How I implemented Relaxr in 2 weeks and changed my life.</h1>
+
+					<figure>
+            <img src="images/blog_photo1.jpg" alt="Team competiting in Canoeing"
+            name="Team competiting in Canoeing"/>
+            <figcaption>Fig.1 - Team giving their best efforts at
+              Canoeing compeition.</figcaption>
+          </figure>
+
+					<p>
+            Lorem ipsum dolor sit amet, cu quot fastidii est. Ludus interpretaris
+            cu est, oporteat scripserit his ut. Quo ex munere principes adversarium,
+            ne per ridens malorum, quas alterum no quo. No mei sonet dicam commodo,
+            quot decore quidam ex vix. Eius cetero conclusionemque et usu.
+          </p>
+
+          <!--more text-->
+          <a href="#" id="readmore1">Read more > </a>
+
+          <p id="readmoretext1">
+            Lorem ipsum dolor sit amet, cu quot fastidii est. Ludus interpretaris
+            cu est, oporteat scripserit his ut. Quo ex munere principes adversarium,
+            ne per ridens malorum, quas alterum no quo. No mei sonet dicam commodo,
+            quot decore quidam ex vix. Eius cetero conclusionemque et usu.
+            <a href="#" id="readless1">Read Less > </a>
+          </p>
+
+          <!-- clear formating of float -->
+          <br class="clearfix"></br>
+
+					<hr>
+
+				</article>
+
+				<article id="secondpost">
+					<h1>I traveled across the globe thanks to Relaxr’s Excel automation</h1>
+
+					<figure>
+            <img src="images/blog_photo2.jpg" alt="Traveling around the globe"
+            name="Traveling around the globe"/>
+            <figcaption>Fig.2 - Traveling around the globe.</figcaption>
+          </figure>
+
+					<p>
+            Lorem ipsum dolor sit amet, cu quot fastidii est. Ludus interpretaris
+            cu est, oporteat scripserit his ut. Quo ex munere principes adversarium,
+            ne per ridens malorum, quas alterum no quo. No mei sonet dicam commodo,
+            quot decore quidam ex vix. Eius cetero conclusionemque et usu.
+          </p>
+
+          <!--more text-->
+          <a href="" id="readmore2">Read more > </a>
+
+          <p id="readmoretext2">
+            Lorem ipsum dolor sit amet, cu quot fastidii est. Ludus interpretaris
+            cu est, oporteat scripserit his ut. Quo ex munere principes adversarium,
+            ne per ridens malorum, quas alterum no quo. No mei sonet dicam commodo,
+            quot decore quidam ex vix. Eius cetero conclusionemque et usu.
+            <a href="" id="readless2">Read Less > </a>
+          </p>
+
+          <!-- clear formating of float -->
+          <br class="clearfix"></br>
+
+					<hr>
+
+				</article>
+			</section>
+
+			<aside id="sidebar">
+				<h1>Categories</h1>
+				<ul>
+					<li><a href="">Success stories</a></li>
+					<li><a href="">Stats</a></li>
+					<li><a href="">How tos</a></li>
+					<li><a href="">Best of</a></li>
+					<li><a href="">Business trip</a></li>
+				</ul>
+
+				<h1>About Relaxr</h1>
+				<p>
+					Proin sed justo vel sapien varius auctor. Proin scelerisque massa at
+					luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.
+					<br>
+					<a href="" id="learnmore">Learn more</a>
+				</p>
+				<p id="learnmoretext">
+          c'est ma vie<br>
+          <a href="" id="learnless">Hide text </a>
+        </p>
+				<img src="images/ad-unit.png" alt="Ad Unit" name"Ad Unit">
+			</aside>
+		</div>
+	</section>
+
+	<section id="signupnow">
+		<div class="container">
+			<a href="" id="signupnowbtn" onclick="signupfunction();return false;">
+				Sign Up Now!
+			</a>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<h1>
+				Relaxr
+			</h1>
+			<ul>
+				<li><a href=""><img src="images/twitter.png" title="Relaxr Twitter" alt="Relaxr Twitter"></a></li>
+				<li><a href=""><img src="images/facebook.png" title="Relaxr Facebook" alt="Relaxr Facebook"></a></li>
+			</ul>
+			<p>
+				Copyright 2015. Relaxr.
+			</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
