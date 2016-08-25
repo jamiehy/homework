@@ -59,7 +59,7 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
+  width: 1000px;
   margin: auto;
   background-color: #f0efef;
 }
@@ -78,7 +78,7 @@ header h1 {
 
 nav {
   color: #f9e42e;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   float: right;
   padding: 25px 100px 0px 0px;
@@ -94,41 +94,123 @@ nav ul li {
 }
 
 main {
-  width: 70%;
+  width: 60%;
   display: inline-block;
+  margin-left: 100px;
+  margin-top: 50px;
+  color: #033048;
 }
 
 article {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 article p {
   color: #606161;
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 article h1 {
-  padding: 50px;
-  color: #033048;
-  font-size: 24px;
+  font-size: 34px;
+  font-weight:600;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+article a {
+  text-decoration: none;
+  font-size: 22px;
   font-weight: bold;
+  margin-left: 430px;
+  margin-bottom: 30px;
+  color: #033048;
+}
+
+.dropcap {
+  font-size: 70px;
+  font-weight: bolder;
+  float: left;
+  padding-right: 10px;
+  padding-top: 10px;
+  color: #606161;
 }
 
 .sidebar {
-  width: 20%;
+  width: 23%;
   float: right;
   vertical-align: top;
   color: #033048;
-  margin: 10px 50px 10px 10px;
+  margin: 50px 50px 10px 10px;
 }
 
 .sidebar h1 {
   font-size: 32px;
-  font-weight: bolder;
+  font-weight:800;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.sidebar p a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #033048;
 }
 
 footer {
+  background-color: #121212;
+  height: 300px;
+}
 
+.footercontent {
+  width: 22%;
+  margin: auto;
+}
+
+h5 {
+  color: #f9e42e;
+  font-size: 38px;
+  font-weight: bolder;
+  padding-top: 50px;
+  padding-left: 45px;
+  margin: auto;
+}
+
+.social {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.signup {
+  height: 100px;
+  background-color: #f9e42e;
+}
+
+.signupbutton {
+  font-weight: 800;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+  width: 22%;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px 20px 10px 60px;
+  background-color: #033048;
+}
+
+.copyright {
+  margin: auto;
+  font-size: 12px;
+  color: white;
+  padding-top: 50px;
+  padding-left: 38px;
 }
 
 /******************************************
