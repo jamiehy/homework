@@ -327,6 +327,11 @@ header h1, #sidebar h1, #signupnow, footer h1 {
   font-style: normal;
 }
 
+/*For more text display*/
+#readmoretext1, #readmoretext2, #learnmoretext{
+  display: none;
+}
+
 /*media queries*/
 
 

@@ -1,6 +1,5 @@
 /*more text display*/
 $(document).ready(function() {
-    $("#readmoretext1, #readmoretext2, #learnmoretext").hide();
 
     /* When click on Read More of Post #1,
     more text will be shown and Read More tag disappear*/
