@@ -1,13 +1,3 @@
-/*sign up button alert*/
-function signupfunction() {
-    alert("We're Not Ready For Sign-Ups...Yet.");
-};
-
-/*msg to appear when nav links are not ready*/
-function linkmsg() {
-    alert("Page will be available soon! Be patient!");
-};
-
 /*more text display*/
 $(document).ready(function() {
     $("#readmoretext1, #readmoretext2, #learnmoretext").hide();
@@ -77,3 +67,13 @@ $(document).ready(function() {
         }
     );
 });
+
+/*sign up button alert*/
+function signupfunction() {
+    alert("We're Not Ready For Sign-Ups...Yet.");
+};
+
+/*msg to appear when nav links are not ready*/
+function linkmsg() {
+    alert("Page will be available soon! Be patient!");
+};
