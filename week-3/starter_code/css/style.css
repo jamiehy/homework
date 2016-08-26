@@ -46,10 +46,23 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
+     //color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     //font-family: Helvetica, Arial, sans-serif; 
+     font-family: 'Open Sans', sans-serif;
+     background-color: #f0efef;
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
 
 
@@ -59,7 +72,8 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
+  width: 100%;
+  //width: 960px;
   margin: auto;
 }
 
@@ -75,6 +89,130 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #033048;
+  height: 120px;
+}
+
+header h1 {
+  float: left;
+  color: white;
+  font-size: 56px;
+}
+
+header nav {
+  float: right;
+}
+
+header ul {
+  list-style: none;
+     // color: #f9e42e;
+}
+
+header li {
+    display: inline-block;
+    //color: white;
+    margin-right: 10px;
+
+}
+
+header a {
+  color: #f9e42e;
+  font-size: 36px;
+
+}
+
+main {
+
+width: calc(100% - 255px);
+
+}
+
+.sidebar {
+
+  width: 250px;
+}
 
 
+main, .sidebar {
+  display: inline-block;
+  vertical-align: top;
 
+}
+
+.sidebar h3 {
+
+  font-size: 36px;
+  color: #033048;
+}
+
+.sidebar li {
+
+  font-size: 26px;
+  color: #033048;
+}
+
+
+.sidebar a {
+
+  font-size: 26px;
+  color: #033048;
+}
+
+.adSection {
+  background-color: white;
+  height: 540px;
+
+}
+
+article {
+
+  border-bottom: 1px solid black;
+}
+
+article h2 {
+  color: #033048;
+  font-size:36px;
+  width: 570px;
+
+}
+
+article p {
+
+color: #606161;
+font-size: 26px;
+
+}
+
+.signUpNow {
+height: 120px;
+background-color: yellow;
+text-align: center;
+
+}
+
+.signUpNow a {
+text-decoration: none;
+font-size: 26px;
+color: white;
+background-color: blue;
+border-radius: 10px;
+
+}
+
+footer {
+  font-size: 26px;
+  background-color: #121212;
+}
+
+footer h2 {
+  color: yellow;
+}
+
+footer p {
+  color: white;
+}
