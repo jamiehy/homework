@@ -1,0 +1,448 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400, 400i,600,800'
+
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+.relaxrheader {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 0px 0px 0px 100px;
+  float: left;
+}
+
+.sign-up {
+  background: #f9e42e;
+  text-align: center;
+}
+
+.sign-up a {
+  background: #033048;
+  color: white;
+}
+
+h1 {
+  float: left;
+}
+
+ul {
+  margin-right: 100px;
+}
+.mainmenu li {
+
+  color: #f9e42e;
+  font-size: 20px;
+  font-weight: 300;
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+  float: right;
+  display: inline-block;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+}
+
+.mainmenu li:hover{
+  color: #c3bb3c;
+  transition:.5s;
+}
+
+.mainmenu .active li{
+  color: #c3bb3c;
+
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     background-color: #efefee;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  margin: auto;
+}
+
+main, .sidebar {
+  display: inline-block;
+  vertical-align: top; /* make sure you have this everytime you use block*/
+  margin-top:50px;
+}
+
+main {
+  width: calc(100% - 500px);
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 100px;
+}
+
+.sidebar {
+  height: auto;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.sidebar a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.categories {
+  margin: 20px 0 50px 0;
+}
+
+.about p{
+  margin: 20px 0 0 0;
+}
+
+.about a{
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+}
+
+
+.sidebar p{
+  width: 12em;
+  overflow-wrap: break-word;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+
+.mobilead{
+  display: none;
+}
+
+.mobilead2{
+  display: none;
+}
+
+
+/* animate button */
+
+button {
+  width: 260px;
+  height: 60px;
+  text-align: center;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: #f9e42e;
+}
+
+.hvr-efx a span {
+  opacity: 0;
+  padding-left: 5px;
+  margin-left: -30px;
+  transition: opacity .25s ease-out, margin-left .5s;
+}
+
+.hvr-efx a:hover span {
+  opacity: 1;
+  margin-left: 0;
+  color: #b4bbc5;
+}
+
+/* animate button */
+
+.button:active {
+  background-color: #FFFFFF;
+  box-shadow: 0 5px #666;
+}
+
+.signup{
+  display: block;
+  width: auto;
+  padding: 30px;
+  background-color: #f9e42e;
+  text-align: center;
+}
+
+.signup button{
+  width: 300px;
+  height: 65px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #043049;
+
+}
+
+.signup a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+  background-color: #033048;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  background-color: #000000;
+  width: auto;
+  padding: 50px;
+}
+
+footer p{
+  font-size: 46px;
+  font-weight: 800;
+  color: #f9e42e;
+
+}
+
+footer img{
+  margin: 50px 40px 50px 30px;
+}
+
+.copywrite {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+footer .copywrite{
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 15px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+article{
+  padding-bottom: 40px;
+}
+
+article div{
+  text-align: right;
+  margin-top: 65px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+}
+
+a:hover{
+  color: #b4bbc5;
+  transition:.5s;
+}
+
+article img{
+  width: 100%;
+}
+
+article h2{
+  font-size: 40px;
+  color: #033048;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+article p {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #606161;
+}
+
+article p::first-letter{
+  float: left;
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+hr{
+  margin-bottom: 50px;
+}
+
+
+
+
+
+/* -----------------------Ninjas Never Die! --------------------------------- */
+@media (max-width:830px) {
+  .mainmenu li{
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .mainmenu li{
+    display: none;
+  }
+
+  header{
+    text-align: center;
+    height: 68px;
+  }
+
+  main {
+    width: 75%;
+  }
+
+  .sidebar div{
+    display: inline-block;
+    margin-left: 45px;
+    vertical-align: top;
+    }
+
+
+
+  .about{
+    margin-left: 80px;
+  }
+
+
+  .desktopad {
+    display: none;
+  }
+
+  .mobilead {
+    display: block;
+    text-align: center;
+    padding: 50px;
+
+  }
+
+  .mobilead2{
+    display: none;
+  }
+
+
+}
+
+@media (max-width:600px) {
+
+  main {
+    width: auto;
+    margin: 50px 50px 0 50px;
+  }
+
+  .sidebar div{
+    display: block;
+    margin: 0;
+    }
+
+  .mobilead{
+    display: none;
+  }
+
+  .mobilead2{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+
+
+  @media (max-width:480px) {
+
+  .relaxrheader{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 0 20px;
+  }
+
+  .mobilead{
+    display: none;
+  }
+
+  .mobilead2{
+    display: block;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+}

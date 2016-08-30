@@ -96,8 +96,8 @@ footer {
 
 .relaxrmain h1 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 48px;
+  font-weight: bold;
+  font-size: 36px;
   color: white;
   padding-top: 30px;
   padding-left: 100px;
@@ -138,10 +138,12 @@ footer {
   width: 100%;
   height: 610px;
   background-color: #f0efef;
+
 }
 
 .benefits div {
   width: 650px;
+  padding-left: 100px;
 
 }
 
@@ -177,7 +179,7 @@ li {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #606161;
-  padding: 10px 0px 0px 110px;
+  padding: 10px 0px 0px 00px;
   list-style: disc;
   list-style-position: inside;
 }
@@ -254,7 +256,7 @@ footer {
 
 }
 
-footer h2{
+footer h2 {
 
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
@@ -264,7 +266,6 @@ footer h2{
 }
 
 footer p {
-
   font-family: 'Open Sans', sans-serif;
   color: white;  
   font-size: 19px;
@@ -272,10 +273,8 @@ footer p {
 }
 
 
-
 footer div {
   text-align: center;
-
 }
 
 .twitter {
