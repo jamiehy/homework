@@ -1,71 +1,224 @@
-/*Relaxr Top*/
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/******************************************
+/* Jamie's Menu Bar
+/*******************************************/
+
 header {
-  /*height: 180px;*/
   width: 100%;
-  background-color: #033048;
+  background-color: #01214c;
 }
 
 .container {
-  /*padding: 50px 150px 50px 150px;*/
   width: 80%;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 41px 0;
 }
 
 #logo {
   color: #ffffff;
-  font-size: 54px;
+  font-size: 51px;
   font-weight: 800;
 }
 
 nav {
   display: inline;
   float: right;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 nav a {
   margin-left: 60px;
 }
 
-footer .logo {
-  color: #f9e42e; /* overwrite for footer */
-}
-
 nav > a {
   color: #f9e42e;
-  font-size: 24px;
+  font-size: 25px;
   text-decoration: none;
-  margin-right:10px;
+  margin-right: 5px;
 }
 nav a:hover {
   color: #ffffff;
 }
 
-footer {
-
-}
-
 /******************************************
-/* ADDITIONAL STYLES
+/* Jamie's Main Content
 /*******************************************/
 
-p.intro:first-letter {
-  font-size: 200%;
-  float: left;
-  padding-right: 10px;
+main {
+  width: 100%;
+  background-color: #f2f6f5;
 }
 
 .content {
-  width: 700px;
+  width: 68%;
 }
 
-h3 {
-  font-size: 40px;
+h1 {
+  color: #01214c;
+  font-size: 44px;
   font-weight: 600;
-  padding-bottom: 10px;
+  line-height: 60px;
+  margin-bottom: 30px;
 }
+
+img {
+  padding: 20px 0px;
+  width: 760px;
+}
+
+article {
+  color: #9a9a9a;
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 39px;
+  padding-bottom: 70px;
+}
+
+p {
+  color: #949494;
+  line-height: 34px;
+}
+
+p.intro:first-letter {
+  color: #575757;
+  font-size: 365%;
+  font-weight: 600;
+  float: left;
+  padding-top: 36px;
+  padding-right: 20px;
+}
+
+article > a {
+  color: #01214c;
+  font-size: 26px;
+  font-weight: 600;
+  text-decoration: none;
+  float: right;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+article > a:hover {
+  color: #f9e42e;
+}
+
+hr {
+  background-color: #01214c;
+  border-color: #01214c;
+  width: 100%;
+  height: 0.01em;
+}
+
+.content, .sidebar {
+  display: inline-block;
+}
+
+.sidebar {
+vertical-align: top;
+width: 30%;
+padding-top: 53px;
+padding-left: 12px;
+}
+
+h2 {
+  color: #01214c;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+aside > ul {
+  margin: 0 auto;
+  padding: 20px 0px 50px 10px;
+}
+
+aside > ul > li > a {
+  color: #01214c;
+  font-size: 25px;
+  font-weight: 300;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+aside > ul > li > a:hover {
+  color: #f9e42e;
+}
+
+aside > p {
+  color: #01214c;
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+aside > p > a {
+  color: #01214c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+aside > p > a:hover {
+  color: #f9e42e;
+}
+
+aside > img {
+  width: 100%;
+  transition-duration: 2s;
+}
+
+/******************************************
+/* Jamie's Footer
+/*******************************************/
+
+section {
+  background-color: #f9e42e;
+  padding: 3%;
+}
+
+#button {
+  background-color: #033048;
+  width: 180px;
+  height: 28px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 5px;
+  padding-top: 15px;
+  margin: auto;
+}
+
+#button:hover {
+  background-color: #121212;
+  color: #f9e42e;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #121212;
+  height: 200px;
+  padding: 80px 0;
+}
+
+footer #logo {
+  color: #f9e42e;
+}
+
+#socialmedia img{
+  height: 30px;
+  width: auto;
+  margin: 0px 14px;
+  padding: 60px 0;
+}
+
+#copyright {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  }
